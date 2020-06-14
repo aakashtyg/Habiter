@@ -1,3 +1,5 @@
 import App from './App';
+import Home from './Home';
+import Progress from './Progress';
 
-export { App };
+export { App, Home, Progress };

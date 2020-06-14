@@ -11,3 +11,54 @@ code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
 }
+
+h1 {
+  text-align: center;
+}
+.all-habits {
+  display: flex;
+  justify-content: space-between;
+}
+ul {
+  list-style-type: none;
+
+  padding: 0;
+  width: 1000px;
+  margin: 0 auto;
+}
+.habit-name {
+  font-size: 25px;
+  color: #2084d0;
+  margin-bottom: 20px;
+}
+ul li {
+  border: 1px solid #000;
+  margin: 20px 0;
+  padding: 10px;
+}
+.habit-day {
+  border: 1px solid #e5e5e5;
+  padding: 10px;
+  width: 120px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.habit-day .date {
+  font-size: 15px;
+  color: blueviolet;
+  margin-bottom: 10px;
+}
+.habit-day .status {
+  border-radius: 5px;
+  padding: 10px;
+  width: 63px;
+  height: 60px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.habit-day .status:hover {
+  cursor: pointer;
+  background: #e5e5e5;
+}
